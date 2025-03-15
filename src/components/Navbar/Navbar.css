@@ -78,7 +78,7 @@
 @media(max-width: 420px){
     .navbar{
         padding: 0px 30px;
-        background-color: #000000f3;
+        background-color: #000;
         color: #fff;
     }
     .navbar ul{
