@@ -66,18 +66,48 @@
     background-color: #eee5e5e0;
 }
 
+.menu-box{
+    display: none;
+}
+
 /* code for mobile version */
 @media(max-width: 420px){
     .navbar ul{
         display: none;
     }
-    .navbar .nav-btn{
-        display: none;
-    }
+
     .navbar h1{
         font-size: 25px;
     }
+
     .navbar h1 span{
         font-size: 28px;
+    }
+
+    .navbar .nav-btn{
+        display: flex;
+        gap: 0;
+    }
+
+    .navbar .nav-btn .app-btn{
+        display: none;
+    }
+
+    .navbar .nav-btn .login-btn{
+        padding: 8px 16px;
+        font-size: 10px;
+        margin-right: -50px;
+    }
+
+    .menu-box{
+        display: block;
+        margin-right: -20px;
+    }
+
+    .menu-box h1{
+        font-size: 14px;
+        border: 1px solid #ccc;
+        padding: 5px 18px;
+        border-radius: 50px;
     }
 }

@@ -18,6 +18,10 @@ const Navbar = () => {
             <button className='login-btn'>Login</button>
             <button className='app-btn'>Download App</button>
         </div>
+
+        <div className="menu-box">
+            <h1>Menu</h1>
+        </div>
     </div>
   )
 }
