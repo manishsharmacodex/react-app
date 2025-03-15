@@ -26,18 +26,19 @@
         text-align: center;
         margin-top: 5px;
         text-transform: none;
-        color: rgba(12, 81, 170, 0.897);
+        color: #fff;
         font-weight: 900;
     }
 
     .search-job{
-        margin-top: 25px;
+        margin-top: 20px;
         text-align: center;
     }
 
     .search-job label{
         font-size: 18px;
         font-weight: bold;
+        color: #fff;
     }
 
     .search-box{
