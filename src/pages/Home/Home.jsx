@@ -1,11 +1,10 @@
 import React from 'react'
 import './Home.css'
-import JobInfoItems from '../../components/JobInfoItems/JobInfoItems.jsx'
 
 const Home = () => {
   return (
     <div className='home'>
-        <JobInfoItems/>
+        <h1>Manish</h1>
     </div>
   )
 }
