@@ -18,7 +18,7 @@
         padding: 8px 10px;
         font-size: 14px;
         width: 200px;
-        margin: 0px 50px;
+        margin: 0px 53px;
     }
     
     .job-info h1{
@@ -26,6 +26,8 @@
         text-align: center;
         margin-top: 5px;
         text-transform: none;
+        color: rgba(12, 81, 170, 0.897);
+        font-weight: 900;
     }
 
     .search-job{
