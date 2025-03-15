@@ -5,7 +5,7 @@ const JobInfoItems = () => {
   return (
     <div className='jobinfoitems'>
         <div className="job-info">
-            <p>#India No's 1 Job Portal</p>
+            <p># India No's 1 Job Portal</p>
         </div>
     </div>
   )
