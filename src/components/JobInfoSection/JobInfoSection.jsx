@@ -1,7 +1,7 @@
 import React from 'react'
-import './JobInfoItems.css'
+import './JobInfoSection.css'
 
-const JobInfoItems = () => {
+const JobInfoSection = () => {
   return (
     <div className='jobinfoitems'>
         <div className="job-info">
@@ -12,4 +12,4 @@ const JobInfoItems = () => {
   )
 }
 
-export default JobInfoItems
+export default JobInfoSection

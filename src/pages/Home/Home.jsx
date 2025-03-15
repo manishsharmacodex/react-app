@@ -1,12 +1,12 @@
 import React from 'react'
 import './Home.css'
-import JobInfoItems from '../../components/JobInfoItems/JobInfoItems'
+import JobInfoSection from '../../components/JobInfoSection/JobInfoSection'
 
 const Home = () => {
   return (
     <div className='home'>
         <h1>Manish</h1>
-        <JobInfoItems/>
+        <JobInfoSection/>
     </div>
   )
 }
