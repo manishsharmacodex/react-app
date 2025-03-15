@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import title from '../../assets/title'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-btn">
-            <button className='login-btn'>Login</button>
+            <Link to="/login"><button className='login-btn'>Login</button></Link>
             <button className='app-btn'>Download App</button>
         </div>
 
