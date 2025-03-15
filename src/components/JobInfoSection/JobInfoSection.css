@@ -1,11 +1,14 @@
 .jobinfoitems{
     padding: 20px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media(max-width: 420px){
+    .job-info{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .job-info p{
         background-color: rgba(45, 48, 75, 0.952);
         color: #fff;
@@ -14,7 +17,7 @@
         padding: 8px 10px;
         font-size: 14px;
         width: 200px;
-        margin: 0px 50px;
+        margin: 0px 70px;
     }
     
     .job-info h1{
