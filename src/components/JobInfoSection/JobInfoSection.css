@@ -26,4 +26,13 @@
         margin-top: 5px;
         text-transform: none;
     }
+
+    .search-job{
+        margin-top: 12px;
+    }
+
+    .search-job label{
+        font-size: 18px;
+        font-weight: bold;
+    }
 }
