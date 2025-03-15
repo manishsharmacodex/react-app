@@ -21,6 +21,10 @@ const JobInfoSection = () => {
             <button>Download App</button>
             <button>Apply Job's</button>
         </div>
+        <div className="job-apply">
+          <div>+3L Apply Job</div>
+          <div>+10L Download App</div>
+        </div>
     </div>
     </div>
   )

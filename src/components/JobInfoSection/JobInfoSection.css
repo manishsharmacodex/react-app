@@ -116,5 +116,21 @@
         color: blue;
         font-weight: 600;
     }
+
+    .job-apply{
+        border: 0px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 10;
+    }
+    .job-apply div{
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 10px;
+        font-size: 12px;
+        margin: 0px 6px;
+    }
 }
 
