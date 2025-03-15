@@ -2,10 +2,12 @@
     padding: 0px 30px;
     text-align: center;
     animation: fadeIn 1s;
+    margin-top: -300px;
 }
 
 .job-btn-box{
     margin-top: 20px;
+    /* border: 1px solid #000; */
     display: flex;
     align-items: center;
     justify-content: center;

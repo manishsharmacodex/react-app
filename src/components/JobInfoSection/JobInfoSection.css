@@ -4,6 +4,15 @@
 }
 
 @media(max-width: 420px){
+    .jobinfoitems{
+        background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.9)),url('../../assets/jobBackground.png');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        margin-top: 60px;
+    }
+
     .job-info{
         margin-top: 30px;
         display: flex;
