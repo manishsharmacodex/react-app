@@ -8,10 +8,12 @@
 
 .navbar h1{
     cursor: pointer;
+    font-size: 34px;
 }
 
 .navbar h1 span{
-    color: tomato;
+    color: rgba(7, 69, 185, 0.863);
+    font-size: 40px;
 }
 
 .navbar ul{
@@ -22,4 +24,29 @@
 
 .navbar ul li{
     font-size: 17px;
+    font-weight: 500;
+    color: rgb(76, 91, 119);
+}
+
+.nav-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(7, 69, 185, 0.863);
+    color: #fff;
+    border-radius: 50px;
+}
+
+.app-btn{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
 }

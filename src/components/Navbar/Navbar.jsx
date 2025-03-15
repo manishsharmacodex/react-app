@@ -5,7 +5,7 @@ import title from '../../assets/title'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <h1>{title.firstName} <span>{title.lastName}</span> </h1>
+        <h1>{title.firstName}<span>{title.lastName}</span> </h1>
         <ul>
             <li>Home</li>
             <li>Search Jobs</li>
@@ -15,8 +15,8 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-btn">
-            <button>Login</button>
-            <button>Sign Up</button>
+            <button className='login-btn'>Login</button>
+            <button className='app-btn'>Download App</button>
         </div>
     </div>
   )
