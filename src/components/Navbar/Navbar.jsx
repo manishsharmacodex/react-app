@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <h1>{title.firstName}<span>{title.lastName}</span> </h1>
+        <Link to="/"><h1>{title.firstName}<span>{title.lastName}</span> </h1></Link>
         <ul>
             <Link to="/"><li>Home</li></Link>
             <li>Search Jobs</li>
