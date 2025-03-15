@@ -5,7 +5,6 @@ import JobInfoSection from '../../components/JobInfoSection/JobInfoSection'
 const Home = () => {
   return (
     <div className='home'>
-        <h1>Manish</h1>
         <JobInfoSection/>
     </div>
   )
