@@ -30,7 +30,7 @@
 
 .nav-btn{
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .login-btn{
@@ -41,6 +41,12 @@
     background-color: rgba(7, 69, 185, 0.863);
     color: #fff;
     border-radius: 50px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.login-btn:hover{
+    transform: scale(1.1);
 }
 
 .app-btn{
@@ -49,4 +55,23 @@
     outline: none;
     cursor: pointer;
     border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #000;
+    transition: 0.5s;
+}
+
+.app-btn:hover{
+    transform: scale(1.1);
+    background-color: #eee5e5e0;
+}
+
+/* code for mobile version */
+@media(max-width: 420px){
+    .navbar ul{
+        display: none;
+    }
+    .navbar .nav-btn{
+        display: none;
+    }
 }
