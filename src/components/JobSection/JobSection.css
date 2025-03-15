@@ -1,10 +1,10 @@
 .job-section{
-    margin-top: 110px;
+    margin-top: 200px;
     padding: 5px 20px;
 }
 
 .job-title{
     font-size: 24px;
     border-bottom: 1px solid navy;
-    color: #fff;
+    color: #000;
 }
