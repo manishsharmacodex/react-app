@@ -3,7 +3,9 @@
 }
 
 .job-title{
-    font-size: 24px;
-    border-bottom: 1px solid navy;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(13, 13, 185, 0.863);
     color: #000;
+    padding: 10px 0px;
+    font-weight: 800;
 }
