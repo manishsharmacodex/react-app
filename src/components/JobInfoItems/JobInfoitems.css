@@ -1,5 +1,5 @@
 .jobinfoitems{
-    padding: 20px 50px;
+    padding: 20px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,11 +14,13 @@
         padding: 8px 10px;
         font-size: 14px;
         width: 200px;
+        margin: 0px 50px;
     }
     
     .job-info h1{
         font-size: 34px;
         text-align: center;
         margin-top: 5px;
+        text-transform: none;
     }
 }
